@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "Apple iphone 14 pro max",
+        "description": "Apple iPhone 14 Pro Max is a smartphone that was tested with the IOS 16.0 operating system. This model weighs 8.47 ounce, has a 6.7 inch display. The iphone 14 pro max is powered by the A16 Bionic processor, has 6 GB RAM and 128 GB of storage with no card slot for exparsion.",
+        "price": 1099.99,
+        "category": "electronics",
+        "imagen": "iphone14ProMax.jpg"
+    },
+
+    {
+        "id": 2,
+        "title": "Notebook acer aspire 5",
+        "description": " Acer Aspire 5 A515-45-R3FZ is a laptop with a 15.6 inch display that has a resolution of 1920 x 1080 pixels. It's powered by a Ryzen 5 5500U processor, has 8GB of RAM and 512GB of SSD storage. The laptop has a battery life of 8 hours and weighs 3.64 pounds, ",
+        "price": 1099.99,
+        "category": "electronics",
+        "imagen": "acerAspire_5_A51555.jpg"
+    },
+
+    {
+        "id": 3,
+        "title": "Desk",
+        "description": "Apple iPhone 14 Pro Max is a smartphone that was tested with the IOS 16.0 operating system. This model weighs 8.47 ounce, has a 6.7 inch display. The iphone 14 pro max is powered by the A16 Bionic processor, has 6 GB RAM and 128 GB of storage with no card slot for exparsion.",
+        "price": 1099.99,
+        "category": "unisex",
+        "imagen": "iphone14ProMax.jpg"
+    },
+
+    {
+        "id": 1,
+        "title": "Apple iphone 14 pro max",
+        "description": "Apple iPhone 14 Pro Max is a smartphone that was tested with the IOS 16.0 operating system. This model weighs 8.47 ounce, has a 6.7 inch display. The iphone 14 pro max is powered by the A16 Bionic processor, has 6 GB RAM and 128 GB of storage with no card slot for exparsion.",
+        "price": 1099.99,
+        "category": "electronics",
+        "imagen": "iphone14ProMax.jpg"
+    }
+]

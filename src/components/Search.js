@@ -8,6 +8,7 @@ import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 
 const Search = () => {
     const [searchOpen, setSearchOpen] = useState(false); 
+    
 
     const toggleInput =() =>{
         setSearchOpen(!searchOpen);

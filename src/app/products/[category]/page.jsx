@@ -23,7 +23,7 @@ const Products = async({params}) =>{
 
 
     return(
-        <section className="flex items-center justify-center  text-dark">
+        <section className="flex flex-col sm:flex-row items-center justify-center  text-dark">
             {
                 items.map(item => (
                     <ProductsCard key={item.id} item={item}/>

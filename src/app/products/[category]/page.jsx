@@ -1,11 +1,11 @@
 import mockData from "@/data/products.json";
-import ProductsCard from "@/components/ProductCard.js"
+import ProductCard from "@/components/ProductCard.js"
 
 
 
 
-export async function generateMetadata({params, searchParamas}, parent){
-    const {category} = await params;
+export  function generateMetadata({params, searchParams}, parent){
+    const {category} = params;
     return { 
         title: category.toUpperCase().replaceAll("-", " ") + " | Amazon Argentina" 
     }
@@ -13,7 +13,7 @@ export async function generateMetadata({params, searchParamas}, parent){
 
 
 const Products = async({params}) =>{
-    const {category} = await params;
+    const {category} =  params;
     // console.log(category)
     // console.log(mockData)
 
@@ -26,7 +26,7 @@ const Products = async({params}) =>{
         <section className="flex flex-col sm:flex-row items-center justify-center  text-dark">
             {
                 items.map(item => (
-                    <ProductsCard key={item.id} item={item}/>
+                    <ProductCard key={item.id} item={item}/>
                 ))
             }
 
